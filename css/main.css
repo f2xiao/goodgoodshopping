@@ -27,3 +27,7 @@
   background: #666;
   margin: 9px 16px 0;
 }
+.header {
+  height: 105px;
+  background: pink;
+}
