@@ -41,7 +41,6 @@
 .header {
   position: relative;
   height: 105px;
-  background: pink;
 }
 .logo {
   position: absolute;
@@ -117,4 +116,62 @@
   color: #fff;
   border-radius: 7px 7px 7px 0;
   background: #b1191a;
+}
+.nav {
+  height: 45px;
+  border-bottom: 1px solid #b1191a;
+}
+.dropdown {
+  width: 210px;
+  height: 45px;
+}
+.navitems {
+  height: 45px;
+}
+.dt {
+  width: 100%;
+  height: 100%;
+  background: #b1191a;
+  font-size: 16px;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+}
+.dd {
+  width: 100%;
+  /* height: 465px; */
+  background: #c81623;
+}
+.dd li {
+  position: relative;
+  height: 31px;
+  padding-left: 10px;
+  line-height: 31px;
+  /* background: skyblue; */
+}
+.dd li:hover {
+  background: #fff;
+}
+.dd li:hover,
+.dd li:hover a {
+  color: #c81623;
+}
+.dd li,
+.dd li a {
+  font-size: 15px;
+  color: #fff;
+}
+.dd li::after {
+  position: absolute;
+  font-family: "icomoon";
+  content: "\e920";
+  right: 10px;
+}
+.navitems ul li a {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 25px;
+  font-size: 16px;
+  color: #696969;
 }
