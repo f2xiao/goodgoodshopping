@@ -1,0 +1,77 @@
+.main {
+  width: 980px;
+  height: 465px;
+  margin: 10px 0 0 220px;
+}
+.focus {
+  width: 721px;
+  height: 455px;
+}
+.newsflash {
+  width: 250px;
+  height: 455px;
+}
+.news {
+  height: 165px;
+  border: 1px solid #ccc;
+}
+.news-hd {
+  height: 33px;
+  line-height: 33px;
+  padding-left: 15px;
+  border-bottom: 1px dotted #ccc;
+}
+.news-hd h5 {
+  font-size: 14px;
+  font-weight: normal;
+}
+.news-hd a::after {
+  margin-right: 15px;
+  font-family: "icomoon";
+  content: "\e920";
+  font-size: 12px;
+}
+.news-bd {
+  padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 24px;
+  line-height: 24px;
+}
+.lifeservice {
+  overflow: hidden;
+  height: 209px;
+  border: solid #ccc;
+  border-width: 0 1px 1px 1px;
+}
+.lifeservice ul li {
+  width: 63px;
+  height: 71px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+.lifeservice ul {
+  width: 252px;
+}
+.lifeservice ul li i {
+  display: inline-block;
+  width: 28px;
+  height: 26px;
+  margin-top: 12px;
+  background: pink;
+  background: url(../images/icons.png) no-repeat -17px -16px;
+}
+.lifeservice ul li a {
+  display: block;
+}
+.bargain {
+  width: 100%;
+  height: 71px;
+  margin-top: 10px;
+  background: url(../upload/bargain.png) no-repeat center;
+}

@@ -138,9 +138,8 @@
   text-align: center;
 }
 .dd {
-  display: none;
   width: 100%;
-  /* height: 465px; */
+  height: 465px;
   background: #c81623;
 }
 .dd li {
